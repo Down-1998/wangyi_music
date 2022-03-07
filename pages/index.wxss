@@ -1,0 +1,67 @@
+/* pages/index.wxss */
+.banners{
+  width: 100%;
+  height: 300rpx;
+}
+.banners image{
+  width: 100%;
+  height: 100%;
+}
+
+/* 五个图标 */
+.navContainer{
+  display: flex;
+}
+.navItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.navItem .iconfont{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  background: rgb(240,19,19);
+  font-size: 50rpx;
+  color: #fff;
+  margin: 20rpx 0;
+}
+.navItem text{
+  font-size: 26rpx;
+}
+
+/* 推荐歌曲 */
+.recommendContariner{
+  padding: 20rpx;
+}
+.recommendContariner .header .title{
+  font-size: 32rpx;
+  line-height: 80rpx;
+  color: #666;
+}
+
+.recommendContariner .header .more{
+  float: right;
+  border: 1rpx solid #3333;
+  padding: 10rpx 20rpx;
+  font-size: 26rpx;
+  border-radius: 30rpx;
+}
+
+/* 内容区的样式 */
+.recommendScroll{
+   display: flex;
+}
+.scrollItem{
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+.scrollItem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
