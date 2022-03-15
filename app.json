@@ -1,6 +1,11 @@
 {
   "pages": [
-    "pages/index"
+    "pages/index/index",
+    "pages/search/search",
+    "pages/video/video",
+    "pages/login/login",
+    "pages/personal/personal"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -8,7 +13,50 @@
     "navigationBarTitleText": "网易云音乐",
     "navigationBarTextStyle": "white"
   },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d43c33",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "/static/images/tabs/tab-home-current.png",
+        "iconPath": "/static/images/tabs/tab-home.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "selectedIconPath": "/static/images/tabs/selected.png",
+        "iconPath": "/static/images/tabs/select.png",
+        "text": "视频"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "selectedIconPath": "/static/images/tabs/tab-my-current.png",
+        "iconPath": "/static/images/tabs/tab-my.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "subpackages":[
+    {
+      "root":"songPackge",
+      "pages":[
+        "pages/recommendSong/recommendSong",
+        "pages/songDetail/songDetail"
+      ]
+    },
+    {
+      "root": "otherPackge",
+      "pages":[
+        "pages/other/other"
+      ]
+    }
+  ],
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "requiredBackgroundModes": [
+    "audio"
+  ]
 }

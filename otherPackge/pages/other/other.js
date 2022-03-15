@@ -1,4 +1,6 @@
-// pages/index.js
+import request from '../../../utils/request'
+// pages/other/other.js
+
 Page({
 
   /**
@@ -13,6 +15,19 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+  //点击获取用户openid的回调
+  handleGetOpenId(){
+    //1.获取登陆凭证
+    wx.login({
+      success:async (res) => {
+          console.log(res);
+          let code = res.code;
+          let result = await request('/getOpenId',{code})
+          console.log(result);
+      }
+    })
+    //2.将登陆凭证发送给服务器
   },
 
   /**
