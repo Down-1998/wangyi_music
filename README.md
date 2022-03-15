@@ -19,7 +19,8 @@
 ![image](https://user-images.githubusercontent.com/67084458/158384007-db56fd9f-f657-4c51-9e35-a36914b74c9c.png)
 
 个人中心
-![image](https://user-images.githubusercontent.com/67084458/158384053-6a1acd4c-2fbc-40cd-b37e-0fb04490ec60.png)
+![image](https://user-images.githubusercontent.com/67084458/158388339-86628d8a-aadd-4b7f-adac-529d3e2b20ee.png)
+
 
 每日推荐
 ![image](https://user-images.githubusercontent.com/67084458/158384099-bb09ce15-21d5-48a3-8c19-c7f624c96976.png)
